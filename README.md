@@ -290,6 +290,11 @@ def check_access_code():
         print("Неверный код доступа. Программа завершает работу.")
         return False
 
+Запустить в termux
+
+git clone https://github.com/ooyessancez/snoser
+cd snoser
+python3 main.py
 
 if __name__ == "__main__":
     if check_access_code():
